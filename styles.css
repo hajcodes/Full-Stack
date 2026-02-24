@@ -1,0 +1,92 @@
+
+
+
+h3{
+    color:rgb(78, 174, 9);
+    font-family: 'Georgia';
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 1.5;
+    opacity: 0.9; /*This property sets the opacity of the element, making it slightly transparent.*/
+    border-style:dotted;
+    /* we have solid, dashed, dotted, double, groove, ridge, inset, outset, none, hidden */
+
+
+
+
+}
+.abc{
+    
+    font-size:30;
+    background-color :bisque;
+    text-align: center;
+    overflow: hidden; /* This property hides any content that exceeds the boundaries of the element. */
+    overflow: scroll; /* This property adds scrollbars to the element if the content exceeds its boundaries. */
+    overflow: auto; /* This property adds scrollbars only when necessary, based on the content size. */
+    
+}
+
+.abc:hover{
+    color:blueviolet;
+    font-size:25;
+    background-color: brown;
+}
+.abc{
+    position: relative;
+    left: -50px;
+    top:-50px;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    background-color: rgb(0, 166, 255);
+    transform: rotate();
+    /* animation-name: myAnimation;
+    animation-duration: infinite;
+    animation-direction: alternate; */
+}
+/* @keyframes myAnimation{
+    /* from {
+        height:200px;
+    } */
+    /* to{
+        height: 400px;
+        width: 300px;
+        background-color: bisque;
+        border-style: dotted;
+    
+    } */ 
+     /* 0% {
+       
+        background-color: rgb(255, 0, 170);
+     }
+     20% {
+        background-color: rgb(0, 255, 119);
+     }
+     75% {
+        background-color: rgb(255, 0, 0);
+     }
+        100% {
+            background-color: rgb(255, 0, 225);
+        } */
+        
+
+
+/* sticky position it keeps the image fixed 
+set top : 0px
+right :0px
+left:0px
+ */
+/* .h4{
+    /* height: 50%; */
+    /* width: 50%;
+    border-style: solid;
+    border-radius: 50%;
+    
+    background: linear-gradient(pink,purple,brown;}
+
+    {
+
+    } */
+/* Graphical Image */ 

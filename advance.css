@@ -1,0 +1,43 @@
+/* @media (max-width: 600px) {
+    body {
+        background-color: #f0e68c;
+    }
+    p{
+        font-size: 50px;
+    }
+}
+@media (min-width: 601px) {
+    body {
+        background-color: #add8e6;
+    }
+    p{
+        font-size: 150px;
+        img src="https://www.pngall.com/wp-content/uploads/5/Smiley-Face-Emoji-PNG-Picture.png" alt="Smiley Face Emoji PNG Picture" width="100" height="100">
+    }
+} */
+.tooltiptext{
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    z-index: 1;
+    position: absolute;
+    border-radius: 6px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.tooltip
+{
+    cursor: grab;
+    position:relative;
+    display: inline-block;
+    
+}
+.tooltip:hover .tooltiptext{
+    visibility: visible;
+}

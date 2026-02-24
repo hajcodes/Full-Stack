@@ -1,0 +1,13 @@
+.square{
+    height: 200px;
+    width: 200px;
+    border-style: solid;
+    background-color: rgb(0, 166, 255);
+    transform:scaleX(-1.2);
+    transform: scaleY(-1.2);
+    
+
+}
+.image{
+    filter:blur(3px);
+}

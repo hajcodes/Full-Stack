@@ -1,0 +1,9 @@
+Topics Practiced:
+- if statement
+- if-else statement
+- else-if ladder
+- nested if
+- comparison operators
+- logical operators (&&)
+
+Implemented programs for eligibility, grading, login validation and number classification.

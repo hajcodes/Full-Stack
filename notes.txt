@@ -7,3 +7,6 @@ Topics Practiced:
 - logical operators (&&)
 
 Implemented programs for eligibility, grading, login validation and number classification.
+
+do while and while 
+Arrays are a data structure that can hold multiple values. They are used to store lists of data and can be manipulated using various methods.

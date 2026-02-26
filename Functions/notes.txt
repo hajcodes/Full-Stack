@@ -1,0 +1,7 @@
+var is a global variable and can be accessed anywhere in the code, but let and const are block scoped and can only be accessed within the block they are defined in
+
+var can be re-declared and updated, but let and const cannot be re-declared and can only be updated if they are not declared as const
+
+callback function which is passed as an argument to another function and is executed after some operation is completed
+
+let is a block scoped variable and can only be accessed within the block it is defined in, but var is a global variable and can be accessed anywhere in the code and cannot be re-declared but can be updated.

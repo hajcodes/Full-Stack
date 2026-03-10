@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="game" width="400" height="400" style="border:1px solid black"></canvas>
+
+
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    img{
+      width: 100px;
+      margin: 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h3>Rock, Paper, Scissors</h3>
+  <img src="images/rock.png" onClick="play('rock')">
+  <img src="Images/paper.png" onClick="play('paper')">
+  <img src="Images/scissor.png" onClick="play('scissors')">
+
+  <h3 id="result"></h3>
+  <h3>Score: <br> You <span id="userScore">0</span> - Computer <span id="compScore">0</span></h3>
+  <script src="rps.js"></script>
+</body>
+
+</html>
